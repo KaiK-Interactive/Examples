@@ -5,6 +5,7 @@ body{
 
 header{
 
+    min-height: 30px;
     text-align: center;
     
 }
@@ -23,6 +24,12 @@ h3{
 
     text-align: center;
     
+}
+
+nav{
+
+    
+
 }
 .s1{
 
@@ -44,6 +51,18 @@ h3{
     background-color: white;
 
 }
+.s3{
+
+    width:40%;
+    float:left;
+    border:2px solid grey;
+    margin-left:9%;
+    margin-top:5%; 
+    text-align: center;
+    background-color: white;
+
+}
+
 #aChange:link , #aChange:visited{
 
     display:block;
@@ -55,6 +74,31 @@ h3{
     width:50%;
     text-align: center;
     margin-left:25%;
+
+}
+
+.v1{
+
+    border:2px solid grey;
+    border-radius:5px;
+    background-color:white;
+
+
+}
+
+.a2:link , .a2:visited{
+    
+    display:block;
+    background-color:darkslategrey;
+    text-transform: uppercase;
+    padding:0.5%;
+    text-decoration: none;
+    color:black;
+    width:24%;
+    text-align: center;
+    float:left;
+    
+
 
 }
 #hover{
@@ -80,6 +124,37 @@ h3{
     margin:5%;
     
     
+}
+    
+.s3{
+
+    width:100%;
+    border:2px solid grey;
+    margin-left:5%;
+    margin-rigth:5%;
+    
+}
+.a2:link , .a2:visited{
+    
+    display:block;
+    background-color:coral;
+    text-transform: uppercase;
+    padding:0.5%;
+    text-decoration: none;
+    color:black;
+    width:25%;
+    min-height: 36px;
+    text-align: center;
+    float:left;
+    
+
+
+}
+    
+header{
+
+    min-height: 40px;
+
 }
 
 }

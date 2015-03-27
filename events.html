@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Beispiele zu Events</title>
+        <style>
+            @import "CSS/style.css";
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <h2>Einfache Beispiele:</h2>
+            <h3>Events und Listener:</h3>
+           
+        </header>
+        
+        <main>
+            
+            <section class="s1">
+                <h3>Das onclick-Event:</h3>
+                <button onclick="change()">Klick mich!!</button>
+                <p id="change">Hallo Welt.</p>
+                <a id="aChange" href="javascript:changeAgain()"><p id="changeAgain"></p></a>
+                
+                
+            
+            </section>
+            
+            <section class="s2">
+                
+                <h3>onmouseover / onmouseout</h3>
+                <p  onmouseover="hover(this)" onmouseout="nohover(this)">Hover me!</p>
+              
+            
+            </section>
+            
+            <section class="s3">
+            
+                <h3>Listener</h3>
+                <p id="testListener">Click</p>
+            
+            
+            </section>
+            
+            
+        </main>
+        
+        <footer>
+            <h3>© 2015 Kai Karren</h3>
+        </footer>
+        <script src="JS/script.js"></script>
+    </body>
+    
+</html>

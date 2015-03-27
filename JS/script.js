@@ -1,3 +1,5 @@
+document.getElementById("testListener").addEventListener("click", listenerDemo);
+
 function change(){
 
     document.getElementById("change").innerHTML = "Ich habe mich verändert.";
@@ -13,14 +15,23 @@ function changeAgain(){
 
 }
 
-function hover(){
+function hover(obj){
 
-    document.getElementById("hover").style.color ="green";
+     obj.style.color ="green";
+     obj.style.textTransform ="uppercase";
 
 }
 
-function nohover(){
+function nohover(obj){
 
-    document.getElementById("hover").style.color ="black";
+    obj.style.color ="black";
+    obj.style.textTransform ="none";
+    
+
+}
+
+function listenerDemo(){
+
+    document.getElementById("testListener").innerHTML = "Ich wurde von einem Listener erzeugt. ";
 
 }
