@@ -7,40 +7,39 @@
         <style>
             @import "CSS/style.css";
         </style>
-        
+    
     </head>
     
     <body>
         
         <header>
-            <h2>Einfache Beispiele:</h2>
-            <h3>Events und Listener:</h3>
+          
+            <h1>Events und EventListener</h1>
            
         </header>
         
         <main>
             
             <section class="s1">
-                <h3>Das onclick-Event:</h3>
-                <button onclick="change()">Klick mich!!</button>
-                <p id="change">Hallo Welt.</p>
-                <a id="aChange" href="javascript:changeAgain()"><p id="changeAgain"></p></a>
-                
-                
-            
+                <h2>Das onclick-Event:</h2>
+                    
+                    <p onclick="change()"> Ein onclick-Event ist wie der Name schon sagt ein Event, dass ausgelöst wird wenn auf einen bestimmten Bereich ein Linksklick ausgeführt wird. So kann man zum Beispiel einen Text ändern oder ihn ergänzen.</p>
+                    <p id="onclickDemo"></p>
             </section>
             
             <section class="s2">
                 
-                <h3>onmouseover / onmouseout</h3>
-                <p  onmouseover="hover(this)" onmouseout="nohover(this)">Hover me!</p>
-              
+                <h2>onmouseover / onmouseout</h2>
+                <p>Die onmouseover und onmouseout Events werden ausgelöst, wenn der Mauszeiger eine bestimmte Position einnimmt bzw sie verlässt.</p>
+                <p onmouseover="hover(this)" onmouseout="nohover(this)">Hover me!</p>
+                <p id="over"></p>
             
             </section>
             
             <section class="s3">
             
-                <h3>Listener</h3>
+                <h2>EventListener</h2>
+                <p>Ein EventListener funktioniert im Grund so wie ein Event nur wird er anders aufgebaut.</p>
                 <p id="testListener">Click</p>
             
             
@@ -50,7 +49,7 @@
         </main>
         
         <footer>
-            <h3>© 2015 Kai Karren</h3>
+           <!--© 2015 Kai Karren-->
         </footer>
         <script src="JS/script.js"></script>
     </body>

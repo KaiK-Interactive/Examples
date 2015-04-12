@@ -1,24 +1,27 @@
-document.getElementById("testListener").addEventListener("click", listenerDemo);
+/**
+ * Script um die Funktionsweise von Events und EventListenern zu zeigen. 
+ *
+ * created by Kai Karren 
+ */
 
+
+document.getElementById("testListener").addEventListener("click", listenerDemo);
+    
 function change(){
 
-    document.getElementById("change").innerHTML = "Ich habe mich verändert.";
-    document.getElementById("aChange").style.backgroundColor="lightblue";
-    document.getElementById("changeAgain").innerHTML = "Verändere weiter!";
+    document.getElementById("onclickDemo").innerHTML = "<p>Was nun auch passiert ist.<p><p>&lttag  onclick= function()&gt Beliebiger Text &lt/tag&gt <p>";
+  
 
 }
 
-function changeAgain(){
-
-    document.getElementById("change").innerHTML = "Ich habe mich wieder verändert.";
-
-
-}
 
 function hover(obj){
 
      obj.style.color ="green";
      obj.style.textTransform ="uppercase";
+     obj.style.fontSize="35px";
+     
+    document.getElementById("over").innerHTML = "&lttag onmouseover = function()  onmouseout = function() &gt Belibiger Text &lt/tag&gt";
 
 }
 
@@ -26,12 +29,12 @@ function nohover(obj){
 
     obj.style.color ="black";
     obj.style.textTransform ="none";
-    
+    obj.style.fontSize="20px";
 
 }
 
 function listenerDemo(){
 
-    document.getElementById("testListener").innerHTML = "Ich wurde von einem Listener erzeugt. ";
+    document.getElementById("testListener").innerHTML = "<p>&lttag id= test &gt Beliebiger Text &lt/tag&gt </p><p>Im Script: document.getElementById(id).addEventListener(art, function())</p>";
 
 }
