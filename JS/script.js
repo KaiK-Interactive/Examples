@@ -35,6 +35,6 @@ function nohover(obj){
 
 function listenerDemo(){
 
-    document.getElementById("testListener").innerHTML = "<p>&lttag id= test &gt Beliebiger Text &lt/tag&gt </p><p>Im Script: document.getElementById(id).addEventListener(art, function())</p>";
+    document.getElementById("testListener").innerHTML = "<p>&lttag id= test &gt Beliebiger Text &lt/tag&gt </p><p>Im Script: document.getElementById(id).addEventListener(art, function());</p>";
 
 }
